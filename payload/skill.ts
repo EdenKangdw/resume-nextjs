@@ -8,23 +8,15 @@ const backend: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
+      title: 'Java',
       level: 2,
     },
     {
-      title: 'Java',
-      level: 1,
+      title: 'AWS',
+      level: 2,
     },
     {
       title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
       level: 1,
     },
   ],
@@ -42,8 +34,12 @@ const database: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'Redis',
+      title: 'Firebase',
       level: 2,
+    },
+    {
+      title: 'Redis',
+      level: 1,
     },
     {
       title: 'MongoDB',
@@ -56,19 +52,50 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
+      title: 'Vue.js',
+      level: 3,
+    },
+    {
+      title: 'Javascript',
+      level: 3,
+    },
+    {
+      title: 'Typescript',
+      level: 2,
+    },
+    {
+      title: 'HTML/CSS',
       level: 2,
     },
     {
       title: 'React.js',
       level: 2,
     },
+  ],
+};
+const Mobile: ISkill.Skill = {
+  category: 'Mobile',
+  items: [
     {
-      title: 'javascript',
+      title: 'Android',
       level: 2,
     },
     {
-      title: 'HTML/CSS',
+      title: 'React-Native',
+      level: 1,
+    },
+    {
+      title: 'Swift',
+      level: 1,
+    },
+  ],
+};
+
+const Language: ISkill.Skill = {
+  category: 'Language',
+  items: [
+    {
+      title: 'English',
       level: 2,
     },
   ],
@@ -78,29 +105,41 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
-      title: 'Ubuntu',
+      title: 'Git',
     },
     {
-      title: 'Vim',
+      title: 'Heroku',
     },
     {
-      title: 'Security',
+      title: 'Nginx',
+    },
+    {
+      title: 'Tomcat',
+    },
+    {
+      title: 'Docker',
+    },
+    {
+      title: 'PM2',
     },
     {
       title: 'VS Code',
     },
     {
-      title: 'Jira',
+      title: 'Firebase',
     },
     {
-      title: 'Confluence',
+      title: 'Linux',
+    },
+    {
+      title: 'MacOS',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
+  skills: [backend, database, frontend, Mobile, Language, etc],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
