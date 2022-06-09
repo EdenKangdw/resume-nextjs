@@ -9,11 +9,15 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'Java',
-      level: 2,
+      level: 3,
+    },
+    {
+      title: 'Spring Boot',
+      level: 3,
     },
     {
       title: 'AWS',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Python',
@@ -95,7 +99,7 @@ const Language: ISkill.Skill = {
   category: 'Language',
   items: [
     {
-      title: 'English',
+      title: 'English(TOEIC 790)',
       level: 2,
     },
   ],

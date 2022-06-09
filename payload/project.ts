@@ -2,10 +2,55 @@ import { IProject } from '../component/project/IProject';
 
 const project: IProject.Payload = {
   disable: false,
+  // 상품 분류 한거
+  // 쿠폰 개편한거
+  // PG 도입
+  // 렌탈 베이스 상품에 구매 도입  
+  // 컴포넌트 베이스 웹 개발 
+  // 캠핑 도입 - 배송상품 
   list: [
+    {
+      title: 'PG 시스템 연동 - 이니시스(에스크로)',
+      startedAt: '2022-03',
+      endedAt: '2022-04',
+      where: '라이클컴퍼니',
+      descriptions: [
+        { content: '새로운 PG 결제 연동' ,
+          descriptions: [
+            { content : '렌탈만 존재하던 서비스에 구매 상품 추가' },
+            { content : 'PC/모바일 각각 결제 시스템 구축' },
+            { content : '결제와 PG 도메인에 대한 이해를 얻음' },
+          ]
+        },
+      ],
+    },
+    {
+      title: '카테고리 캘린더 개편 및 상품 클래스 분류 도입',
+      startedAt: '2021-04',
+      endedAt: '2021-06',
+      where: '라이클컴퍼니',
+      descriptions: [
+        { content: '데이트피커로 구현된 자전거 상품 예약시스템을 캘린더 베이스로 개편' ,
+          descriptions: [
+            { content : '예약일 선택이 피커로 구현되어 조금 먼 일정을 선택하기 위해서 스크롤을 많이 내려야하는 불편함 존재' },
+            { content : '캘린더로 변환하여 고객의 서비스 경험을 편하게 함' },
+            { content : '예약 관련 모든 API 수정 및 추가 작업 수행' },
+            { content : '다양한 형태의 예약에 대한 경험과 이해를 얻음' },
+          ]
+        },
+        { content: '카테고리 내 상품들을 클래스로 소분류 추가' ,
+          descriptions: [
+            { content : '기존의 상품들은 큰 카테고리(자전거, 스키 등)외에 묶어낼 수 있는 기준이 없었음' },
+            { content : '상품 관련 모든 API에 수정 및 추가 작업 수행' },
+            { content : '나중에 어떤 상품 형태가 서비스에 추가되어도 간편히 클래스만 추가하여 적용할 수 있도록 확장을 고려한 설계를 함' },
+          ]
+        },
+      ],
+    },
     {
       title: 'Weegle 메신저 앱',
       startedAt: '2018-06',
+      endedAt: '2020-06',
       where: '오제이월드',
       descriptions: [
         { content: '메인 개발자와 함께 Node API 서버 개발' },

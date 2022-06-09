@@ -5,6 +5,18 @@ const education: IEducation.Payload = {
 
   list: [
     {
+      title: '딥노이드 AI 머신러닝 교육 6주',
+      subTitle: '수료',
+      startedAt: '2021-11',
+      endedAt: '2021-12',
+    },
+    {
+      title: '독학사(컴퓨터과학) - 학사',
+      subTitle: '취득',
+      startedAt: '2021-01',
+      endedAt: '2022-02',
+    },
+    {
       title: 'JAVA 프로그래밍 교육',
       subTitle: '수료',
       startedAt: '2017-09',
@@ -17,8 +29,14 @@ const education: IEducation.Payload = {
       endedAt: '2014-06',
     },
     {
+      title: '성령신학교',
+      subTitle: '신학과 휴학',
+      startedAt: '2010-03',
+      endedAt: '2012-11',
+    },
+    {
       title: '불곡고등학교',
-      subTitle: 'Graduated',
+      subTitle: '졸업',
       startedAt: '2008-03',
       endedAt: '2010-02',
     },

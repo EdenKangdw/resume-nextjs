@@ -4,9 +4,23 @@ const experience: IExperience.Payload = {
   disable: false,
   list: [
     {
+      title: '라이클컴퍼니',
+      position: 'Backend Developer',
+      startedAt: '2020-07',
+      descriptions: [
+        '앱 다운로드 10만 이상 아웃도어 장비 렌탈 플랫폼 "LYCLE" 서비스 운영',
+        'Java / Spring Boot / GraphQL 기반 백엔드 개발',
+        '개발팀 리드 역할 및 메인 백엔드 역할 수행',
+        '사내 개발관련 내용 문서화 및 아티클 작성 주도',
+        '레거시 청산 및 유지보수',
+      ],
+      skillKeywords: ['Java', 'Spring Boot', 'GraphQL', 'AWS', 'MySQL'],
+    },
+    {
       title: '오제이월드',
       position: 'Backend Developer',
       startedAt: '2018-06',
+      endedAt : '2020-06',
       descriptions: [
         '채팅과 메신저 앱 스타트업',
         'Node 기반 백엔드 개발',
