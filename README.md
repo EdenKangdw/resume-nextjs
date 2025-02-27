@@ -28,6 +28,7 @@ npm install
 ## Run Development Mode
 
 ```bash
+$env:NODE_OPTIONS="--openssl-legacy-provider"
 npm run dev
 ```
 
